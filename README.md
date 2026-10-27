@@ -2,7 +2,7 @@
 
 ## What this repo shows
 
-We use Mastra Studio to run our workflows by hand and to "time travel": re-run a single step with
+We sometimes use Mastra Studio to run our workflows by hand and to "time travel": re-run a single step with
 the input it got in an earlier run. Our schemas are ordinary zod:
 
 - Some workflows accept one of several input shapes (a `z.discriminatedUnion`).
